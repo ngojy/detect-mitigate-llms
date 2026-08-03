@@ -1,4 +1,42 @@
+# env variables
+.env
+.env.*
+*.env
+
+# pycache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# conda
+*.conda
+
+# vscode settings
+.vscode/
+
+# os
+.DS_Store
+Thumbs.db
+.env.production
+
+# checkpoint files
 checkpoint_Combined_Early.pt
 checkpoint_Embeddings.pt
 checkpoint_KL_Divergence.pt
 checkpoint_Shannon_Entropy.pt
+
+# model files
+combined_early_model.pth
+combined_late_model.pkl
+emb_model.pth
+entropy_model.pth
+feature_extractor.pkl
+kl_model.pth
+naive_bayes_model.pkl
+
+# scaler files
+scaler_emb.pkl
+scaler_entropy.pkl
+scaler_kl.pkl
+scaler_nb.pkl

@@ -88,17 +88,6 @@ prompt-injection-detection/
 +-- main.ipynb
 +-- chatbox.py
 +-- model_utils.py
-+-- entropy_model.pth
-+-- kl_model.pth
-+-- emb_model.pth
-+-- combined_early_model.pth
-+-- combined_late_model.pkl
-+-- naive_bayes_model.pkl
-+-- feature_extractor.pkl
-+-- scaler_entropy.pkl
-+-- scaler_kl.pkl
-+-- scaler_emb.pkl
-+-- scaler_nb.pkl
 +-- notebook_version/
 �   +-- google_colab_version.ipynb
 �   +-- vs_code_version.ipynb
